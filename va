@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Virtual Assistant Services</title>
+    <style>
+      /* Define the styles for the body element */
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+      }
+      
+      /* Define the styles for the header element */
+      header {
+        background-color: #333;
+        color: white;
+        padding: 1em;
+        text-align: center;
+      }
+      
+      /* Define the styles for the navigation menu */
+      nav {
+        background-color: #333;
+        color: white;
+        text-align: center;
+      }
+      
+      /* Define the styles for the navigation menu links */
+      nav a {
+        color: white;
+        text-decoration: none;
+        padding: 1em;
+        display: inline-block;
+      }
+      
+      /* Define the styles for the main content section */
+      main {
+        padding: 1em;
+      }
+      
+      /* Define the styles for the footer element */
+      footer {
+        background-color: #333;
+        color: white;
+        padding: 1em;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Virtual Assistant Services</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section id="services">
+        <h2>Our Services</h2>
+        <p>We provide a wide range of virtual assistant services, including:</p>
+        <ul>
+          <li>Calendar management</li>
+          <li>Email management</li>
+          <li>Social media management</li>
+          <li>Data entry</li>
+          <li>Research and analysis</li>
+        </ul>
+      </section>
+      <section id="about">
+        <h2>About Us</h2>
+        <p>We are a team of highly skilled and experienced virtual assistants, committed to providing top-notch support to our clients. Our goal is to help businesses and individuals save time and focus on what really matters by taking care of their administrative tasks.</p>
+      </section>
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="submit-form.php" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          <label for="message">Message:</label>
+          <textarea id="message" name
